@@ -1,0 +1,10 @@
+{
+    "bruteTimeframeMs": 300000,
+    "cardCost": 720,
+    "jwtSecret": "Secret string is good",
+    "mongoUri": "mongodb+srv://depress:qq321@cluster0.y7efn.mongodb.net/app?retryWrites=true&w=majority",
+    "numbersUsedInCard": [20, 30, 50, 100, 200],
+    "port": 5000,
+    "totalRequestInFrame": 5,
+    "ttlMs": 3600000
+}
