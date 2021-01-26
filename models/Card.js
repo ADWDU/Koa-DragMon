@@ -5,11 +5,7 @@ const generateCards = require('../utils/generateCards');
 const ResponseError = require('./../ResponseError');
 
 const cardSchema = new Schema({
-    cells: [{
-        _id: false,
-        type: cellSchema,
-        required: true
-    }],
+    cells: [{ _id: false, type: cellSchema, required: true }],
     userId: { type: Types.ObjectId, ref: 'User', required: true },
     crossLine: [{ type: Number, required: true }],
     played: { type: Boolean, required: true, default: false }
